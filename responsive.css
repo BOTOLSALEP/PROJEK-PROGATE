@@ -1,0 +1,201 @@
+/* TABLET */
+@media (max-width: 1000px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+    z-index: 2;
+  }
+
+  .banner {
+    background-size: cover;
+    width: 100%;
+    height: 926px;
+    background-image: url(asset/TABLET-BANNER.png);
+  }
+  .pengantin {
+    margin-left: -100px;
+  }
+  .pengantin p {
+    font-size: 80px;
+  }
+  .navbar {
+    display: none;
+  }
+  .pria p {
+    position: relative;
+    bottom: 50px;
+  }
+  .wanita p {
+    position: relative;
+    top: 50px;
+  }
+  .judul h1 {
+    font-size: 70px;
+  }
+  .judul p {
+    font-size: 24px;
+    margin-top: -15px;
+  }
+
+  .konten img {
+    width: 240px;
+  }
+  .konten p {
+    font-size: 24px;
+  }
+  .tanggal-story p {
+    font-size: 24px;
+  }
+  .map {
+    display: flex;
+  }
+  .map iframe {
+    width: 450px;
+    height: 450px;
+  }
+
+  .map p {
+    font-size: 24px;
+    width: 100%;
+  }
+  .kartu p {
+    font-size: 24px;
+  }
+  .kartu {
+    width: 500px;
+  }
+  .asset1 {
+    position: absolute;
+    right: 0px;
+    z-index: -6;
+    bottom: -2300px;
+  }
+  .asset1 img {
+    width: 300px;
+  }
+  .asset2 {
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    bottom: -2600px;
+  }
+  .asset2 img {
+    width: 300px;
+  }
+  .ucapan h1 {
+    font-size: 30px;
+  }
+  .btn {
+    width: 250px;
+  }
+}
+
+/* SMARTPHONE */
+
+@media (max-width: 670px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+  }
+  body {
+    width: 100%;
+  }
+  .banner {
+    background-size: cover;
+    width: 100%;
+
+    background-image: url(asset/Group\ 26.png);
+  }
+  .garis {
+    margin: 0px 15px;
+  }
+  .pengantin {
+    position: absolute;
+    margin-top: -90px;
+    margin-left: -130px;
+  }
+  .pengantin p {
+    font-size: 70px;
+  }
+  .navbar {
+    display: none;
+  }
+  .pria p {
+    position: relative;
+    bottom: 40px;
+  }
+  .wanita p {
+    position: relative;
+    top: 40px;
+  }
+  .judul h1 {
+    font-size: 40px;
+  }
+  .judul p {
+    font-size: 16px;
+    margin-top: -25px;
+  }
+
+  .konten img {
+    width: 160px;
+  }
+  .konten p {
+    font-size: 16px;
+  }
+  .tanggal-story p {
+    font-size: 16px;
+  }
+  .konten1,
+  .konten3 {
+    margin-bottom: 30px;
+  }
+  .map iframe {
+    width: 350px;
+    height: 350px;
+  }
+  .map p {
+    font-size: 16px;
+    width: 350px;
+  }
+  .kartu p {
+    font-size: 16px;
+    width: 450px;
+  }
+  .kartu {
+    width: 300px;
+    height: 150px;
+  }
+  .asset1 {
+    position: absolute;
+    right: 0px;
+    z-index: -16;
+    bottom: -1880px;
+  }
+  .asset1 img {
+    width: 200px;
+  }
+  .asset2 {
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    bottom: -2100px;
+  }
+  .asset2 img {
+    width: 200px;
+  }
+  .ucapan h1 {
+    font-size: 24px;
+  }
+  .btn {
+    width: 100px;
+    height: 50px;
+  }
+  input {
+    font-size: 16px;
+    width: 250px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+}
